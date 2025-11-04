@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title><%= shopName %> - About</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>About <%= shopName %></h1>
+
+      <p>
+        Welcome to <%= shopName %> — our zombie-friendly beverage empire is now
+        spreading across London!
+      </p>
+
+      <h2>Our London Shops</h2>
+
+      <!-- Replace the table with a list -->
+      <ul>
+        <% for (let shop of shops) { %>
+          <li style="margin-bottom: 20px;">
+            <strong><%= shop.location %></strong><br>
+            Manager: <%= shop.manager %><br>
+            Address: <%= shop.address %>
+          </li>
+        <% } %>
+      </ul>
+
+      <p><a href="/">Back to Home</a></p>
+    </div>
+  </body>
+</html>

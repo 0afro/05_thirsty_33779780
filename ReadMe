@@ -1,0 +1,32 @@
+🧟‍♂️ Caffeine Zombies  (The Thirsty Student)
+
+A Node.js and Express web application using EJS templates, created for Lab 5 (Parts A–E).
+The site is a zombie-themed drinks shop that allows users to browse products, register, search, complete surveys and view shop locations.
+
+
+Project Overview:
+
+The Caffeine Zombies web app demonstrates how to use Express routing, EJS templates, and forms to build a simple but dynamic multi-page website.
+
+
+How to Run Locally
+
+Install dependencies:
+npm init
+npm install express
+npm install ejs
+
+Then start the server using:
+node index.js
+
+Then Browse the pages using following links:
+http://localhost:8000/ → Home
+
+http://localhost:8000/about → About the shop
+
+http://localhost:8000/search → Search drinks
+
+http://localhost:8000/register → Register form
+
+http://localhost:8000/survey → Customer survey
+
